@@ -1,0 +1,47 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+p {
+  margin: 4px;
+  font-family: sans-serif;
+}
+form {
+  display: inline-flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+body > form > input[type=text]:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+  border: 1px solid lightgrey;
+  border-right: none;
+  font-size: 20px;
+  padding: 1px 4px;
+  width: 350px;
+  &:focus {
+    outline: none;
+  }
+}
+
+body > form > input[type=submit]:nth-child(2) {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  color: white;
+  margin: 0;
+  padding: 8px 16px;
+  font-size: 20px;
+}
+
+.talk {
+  border-left: 4px solid lightgray;
+  padding: 2px 8px;
+  margin: 8px;
+}
+
+.yellow-background {
+  background-color: lightyellow;
+}
